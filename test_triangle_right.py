@@ -12,5 +12,4 @@ def test_is_triangle_right(coordinates):
                       coordinates[p[5]]):
             is_rtriangle = True
             break
-        print('1')
     assert is_rtriangle, 'Triangle is not right'
